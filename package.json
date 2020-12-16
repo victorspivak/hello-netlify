@@ -2,7 +2,7 @@
   "name": "hello-netlify",
   "version": "1.0.0",
   "description": "It is a hello netlify project",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
