@@ -1,0 +1,30 @@
+{
+  "name": "hello-netlify",
+  "version": "1.0.0",
+  "description": "It is a hello netlify project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorspivak/hello-netlify.git"
+  },
+  "keywords": [
+    "netlify"
+  ],
+  "author": "Victor Spivak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorspivak/hello-netlify/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "homepage": "https://github.com/victorspivak/hello-netlify#readme",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.2"
+  }
+}
